@@ -1,0 +1,138 @@
+/* Styling Text */
+.title-16-bold {
+  font-family: Helvetica;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 24px;
+  text-align: left;
+}
+.body-14-bold {
+  font-family: Helvetica;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 20px;
+  text-align: left;
+}
+.body-14-reguler {
+  font-family: Helvetica;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 20px;
+  text-align: left;
+}
+.body-14-light {
+  font-family: Helvetica;
+  font-size: 14px;
+  font-weight: 300;
+  line-height: 20px;
+  text-align: left;
+}
+
+.SectionViewCars {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 24px;
+}
+
+.SectionListCars {
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+  width: 100%;
+}
+
+.ListCar {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  width: 100%;
+  height: fit-content;
+}
+
+.ListCarText {
+  width: 100%;
+  font-family: Helvetica;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 30px;
+  text-align: left;
+}
+
+.button-add-new {
+  width: 142px;
+  background-color: #0d28a6;
+}
+
+.filter-button {
+  display: flex;
+  flex-direction: row;
+  gap: 8px;
+}
+
+.buttonfilter.active {
+  background-color: #0d28a6 !important;
+}
+
+.buttonfilter.disabled {
+  border-color: #aeb7e1;
+  color: #aeb7e1;
+  background: white;
+  border-width: 2px;
+}
+
+/* Card Styling */
+.HeadCardCar {
+  padding: 24px;
+  border-radius: 8px;
+
+  box-shadow: 0px 0px 4px 0px #00000026;
+
+  width: 351px;
+  height: fit-content;
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
+.img-car {
+  width: 303px;
+  height: 222px;
+  object-fit: cover;
+}
+
+.BodyCardCar {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  gap: 8px;
+}
+
+.desc-card {
+  display: flex;
+  flex-direction: row;
+}
+
+.button-card {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  gap: 16px;
+}
+
+.delete-button {
+  background-color: white;
+  border-color: #fa2c5a;
+  color: #fa2c5a;
+  border-radius: 0px;
+  width: 100%;
+  text-align: center;
+}
+.edit-button {
+  background-color: #5cb85f;
+  border-color: #5cb85f;
+  color: white;
+  border-radius: 0px;
+  width: 100%;
+  text-align: center;
+}

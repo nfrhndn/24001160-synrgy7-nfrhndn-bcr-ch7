@@ -1,0 +1,10 @@
+.icon-person {
+  width: 100%;
+  display: flex;
+  justify-content: end;
+  align-items: center;
+}
+
+#MainSection {
+  width: 1280px;
+}

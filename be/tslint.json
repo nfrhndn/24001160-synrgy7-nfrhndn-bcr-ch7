@@ -1,0 +1,18 @@
+{
+  "defaultSeverity": "error",
+  "extends": ["tslint:recommended"],
+  "jsRules": {},
+  "rules": {
+    "no-shadowed-variable": false,
+    "max-line-length": {
+      "options": [120]
+    },
+    "no-console": {
+      "severity": "warning",
+      "options": ["debug", "info", "log", "time", "timeEnd", "trace"]
+    },
+    "indent": [true, "tab"],
+    "semicolon": [true, "always"]
+  },
+  "rulesDirectory": []
+}
